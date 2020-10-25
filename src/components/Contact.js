@@ -1,8 +1,8 @@
 
 
 
-import React, {Component} from 'react';
-import Contact from "./components/Contact.css";
+import React from "react";
+import Contact from "./Contact.css";
 
 
 function Contact() {
@@ -14,14 +14,10 @@ function Contact() {
         alt="Beverley Ryan"
       />
       <div>
-        <p className="name">Beverley Ryan</p>
+        <h2 className="name">Beverley Ryan</h2>
         <div className="status">
-          <div className="status-online" />
-          <p className="status-text">online</p>
-          <div className="statut">
-        
-        <h3>{online ?'Online':'Offline'}</h3>
-      </div> 
+          <span className="status-online"></span>
+          <span className="status-text">online</span>
         </div>
       </div>
     </div>
